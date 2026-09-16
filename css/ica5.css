@@ -51,7 +51,7 @@ p, li, table {
 
 /* || header layout */
 
-article, footer, aside {
+nav, article, footer, aside {
   background-color: #00a800;
 }
 
@@ -64,9 +64,7 @@ article {
 }
 
 nav{
-  background-color: #00a800;
   height: 50px;
-  background-color: ff80ff;
   display: flex;
   padding: 1% 0;
   margin-bottom: 10px;
@@ -182,11 +180,11 @@ audio {
   cursor: pointer;
 }
 
-.comments font[size="6"] {
+.comments h2 {
   font-size: 2rem;
 }
 
-.comments font[size="6"]:nth-of-type(2) {
+.comments h2 :nth-of-type(2) {
   margin-bottom: 0;
 }
 
