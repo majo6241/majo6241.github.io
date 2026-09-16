@@ -51,11 +51,11 @@ p, li, table {
 
 /* || header layout */
 
-article, footer, .secondary {
+article, footer, aside {
   background-color: #00a800;
 }
 
-article, footer, .secondary {
+article, footer, aside {
   padding: 10px 30px;
 }
 
@@ -128,7 +128,7 @@ article {
   flex: 5;
 }
 
-.secondary {
+aside {
   flex: 2;
 }
 
