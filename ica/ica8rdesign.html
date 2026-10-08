@@ -7,8 +7,10 @@
     <style>
       @media screen and (min-width: 800px) {
         header, .card li, .sidebar{box-sizing: border-box;}
-        header {width: 1fr;
+        header {display: flex;
+            width: 1fr;
             height: 100px;}
+        header li{flex-direction: end;}
         .card {display: grid;
         grid-template-columns: repeat(3, 200px);
         gap: 50px;}
