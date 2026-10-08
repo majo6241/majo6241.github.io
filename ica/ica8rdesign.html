@@ -4,7 +4,87 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>Responsive Web Design Task: Task</title>
-    <link rel="stylesheet" href="/css/ica8rdesign.css" />      
+    <style>
+      @media screen and (min-width: 800px) {
+        header, .card li, .sidebar{box-sizing: border-box;}
+        header {width: 1fr;
+            height: 100px;}
+        .card {display: grid;
+        grid-template-columns: repeat(3, 200px);
+        gap: 50px;}
+      }
+
+      html {
+        font:
+          1.2em/1.4 Arial,
+          Helvetica,
+          sans-serif;
+      }
+
+      body {
+        padding: 0 0 1em;
+      }
+
+      header {
+        background-color: #333;
+        color: #fff;
+        border: 5px solid #000;
+      }
+
+      header ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      header a {
+        color: #fff;
+        text-decoration: none;
+        display: block;
+        padding: 0.5em 1em;
+        border-top: 1px solid #999;
+      }
+
+      header .title {
+        font-size: 150%;
+        font-style: italic;
+        font-weight: bold;
+        padding: 1em;
+      }
+
+      main {
+        padding: 0 1em;
+      }
+
+      .cards {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      .cards li {
+        border: 5px solid #000;
+        margin-bottom: 1em;
+      }
+
+      .cards h2 {
+        background-color: #333;
+        color: #fff;
+        margin: 0;
+        padding: 0.5em 1em;
+      }
+
+      .cards .inner {
+        padding: 0.5em 1em;
+      }
+
+      .sidebar {
+        background-color: #333;
+        border: 5px solid #000;
+        padding: 0.5em 1em;
+        color: #fff;
+      }
+    </style>
   </head>
 
   <body>
