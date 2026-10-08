@@ -1,7 +1,12 @@
-* {
-        box-sizing: border-box;
-      }
-
+   @media all and (min-width: 800px) {
+   body {         
+      grid-template-columns: 600px 100px;
+      grid-template-rows: 100px 400px; 
+      grid-template-areas: 
+         "head head"
+         "main foot";
+        }
+    }
       html {
         font:
           1.2em/1.4 Arial,
