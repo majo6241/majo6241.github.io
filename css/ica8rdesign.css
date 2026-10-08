@@ -1,10 +1,10 @@
-   @media all and (min-width: 800px) {
+   @media screen and (min-width: 800px) {
    body {         
       grid-template-columns: 600px 100px;
       grid-template-rows: 100px 400px; 
       grid-template-areas: 
-         "head head"
-         "main foot";
+         "div nav"
+         "main aside";
         }
     }
       html {
