@@ -8,12 +8,15 @@
       @media screen and (min-width: 600px){
         body{box-sizing: border-box;}
         header nav li{display:flex;
-        flex-direction:column;
+        flex-direction:row;
         justify-content:end;}
+        main{display:flex;}
+        article{flex:0 1 75%;}
         .cards li{display:gird;
         grid-template-columns: repeat(3,1fr);}
         .cards .inner{display:flex;
         justify-content:space-around;}
+        .sidebar{flex: 0 1 25%;}
       }
 
       html {
