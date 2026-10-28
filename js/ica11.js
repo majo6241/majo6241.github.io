@@ -22,7 +22,7 @@ function returnRandomStoryString() {
   let storyText = "It was 94 Fahrenheit outside, so " + randomValueFromArray(randomCharacter) +
   "got into a massive fight in front of " + randomValueFromArray(randomPlace) +
   "! Oh gosh! What is going on on?! Suddenly he" + randomValueFromArray(randomEvents) +
-  " but immediately receives himself to normal. Bob is in this fight and can't fight" + randomValueFromArray(randomCharacter) +
+  " but immediately receives himself to normal. Bob is in here and can't fight" + randomValueFromArray(randomCharacter) +
   " who weighs 300 pounds and continue fighting on even on a hot day."
   return storyText;
 }
@@ -44,7 +44,6 @@ let newStory = returnRandomStoryString()
     newStory.replace("94 Fahrenheit",temperature);
   }
 
-  // TODO: replace "" with the correct expression
   story.textContent = newStory;
   story.style.visibility = "visible";
 }
