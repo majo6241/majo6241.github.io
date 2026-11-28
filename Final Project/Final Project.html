@@ -43,22 +43,56 @@
 </head>
 <body>
   <h1>Enter your Phone Number</h1>
+  <div class="buttons">
+    <input type="button" id="button1">Go</button>
+    <input type="button" id="button2">Go</button>
+    <input type="button" id="button3">Go</button>
+    <input type="button" id="button4">Go</button>
+    <input type="button" id="button5">Go</button>
+    <input type="button" id="button6">Go</button>
+    <input type="button" id="button7">Go</button>
+    <input type="button" id="button8">Go</button>
+    <input type="button" id="button9">Go</button>
+    <input type="button" id="button10">Go</button>
+  </div>
+  <div class="phone-digits">
+  <p id ="digit-1"></p>
+  <p id ="digit-2"></p>
+  <p id ="digit-3"></p>
+  <p id ="digit-4"></p>
+  <p id ="digit-5"></p>
+  <p id ="digit-6"></p>
+  <p id ="digit-7"></p>
+  <p id ="digit-8"></p>
+  <p id ="digit-9"></p>
+  <p id ="digit-10"></p>
+  </div>
+    <button type="submit">Submit</button>
+    <p class="error"></p>
 
-  <form>
-    <div class="phone-inputs">
-      <input type="text" inputmode="numeric" maxlength="1" aria-label="Digit 1">
-      <input type="text" inputmode="numeric" maxlength="1" aria-label="Digit 2">
-      <input type="text" inputmode="numeric" maxlength="1" aria-label="Digit 3">
-      <input type="text" inputmode="numeric" maxlength="1" aria-label="Digit 4">
-      <input type="text" inputmode="numeric" maxlength="1" aria-label="Digit 5">
-      <input type="text" inputmode="numeric" maxlength="1" aria-label="Digit 6">
-      <input type="text" inputmode="numeric" maxlength="1" aria-label="Digit 7">
-      <input type="text" inputmode="numeric" maxlength="1" aria-label="Digit 8">
-      <input type="text" inputmode="numeric" maxlength="1" aria-label="Digit 9">
-      <input type="text" inputmode="numeric" maxlength="1" aria-label="Digit 10">
-    </div>
-
-    <button type="submit">Continue</button>
-  </form>
+  <script>
+    function getRandomNumber() {
+    return Math.floor(Math.random()*10 + 1)};
+    document.getElementById("button1").addEventListener("click",function(){
+      const num1 = getRandomNumber();})
+    document.getElementById("button2").addEventListener("click",function(){
+      const num2 = getRandomNumber();})
+    document.getElementById("button3").addEventListener("click",function(){
+      const num3 = getRandomNumber();})
+    document.getElementById("button4").addEventListener("click",function(){
+      const num4 = getRandomNumber();})
+    document.getElementById("button5").addEventListener("click",function(){
+      const num5 = getRandomNumber();})
+    document.getElementById("button6").addEventListener("click",function(){
+      const num6 = getRandomNumber();})
+    document.getElementById("button7").addEventListener("click",function(){
+      const num7 = getRandomNumber();})
+    document.getElementById("button8").addEventListener("click",function(){
+      const num8 = getRandomNumber();})
+    document.getElementById("button9").addEventListener("click",function(){
+      const num9 = getRandomNumber();})
+    document.getElementById("button10").addEventListener("click",function(){
+      const num10 = getRandomNumber();})
+  </script>
 </body>
 </html>
